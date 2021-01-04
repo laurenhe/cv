@@ -3,8 +3,10 @@ import numpy as np
 import utils
 
 def main():
-    images = utils.load_images("category/italian")
-    print(len(images))
+    img_ita = utils.load_images("category/italian")
+    print(len(img_ita))
+    img_fre = utils.load_images("category/french")
+    print(len(img_fre))
 
 
 if __name__ == "__main__":
