@@ -6,11 +6,9 @@ import utils
 def main():
     ita = utils.load_images("category/italian")
     # fre = utils.load_images("category/french")
-    # print(utils.average_rgb(ita[0]))
-    # print(utils.average_hsv(ita[0]))
-    for img in ita:
-       print(img.shape)
-    # print(min(img.shape[0] for img in ita))
+    # ita_tile = utils.tile_concat([ita[0:15], ita[15:31], ita[31:46], ita[46:61], ita[61:76], ita[76:91], ita[91:106],
+    #                               ita[106:121], ita[121:136], ita[136:151], ita[151:166], ita[166:181]])
+    # cv2.imwrite("category/italian.jpg", ita_tile)
 
 
 if __name__ == "__main__":
