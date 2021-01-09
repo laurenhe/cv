@@ -15,6 +15,8 @@ def load_images(folder):
 
 
 # Convert png images to jpg
+# Takes cuisine and image filename as string parameters
+# Writes image to folder
 def png_to_jpg(cuisine, file):
     path = "category/" + cuisine + "/" + file + ".png"
     new = "category/" + cuisine + "/" + file + ".jpg"
